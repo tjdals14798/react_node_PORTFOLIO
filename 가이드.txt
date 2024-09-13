@@ -1,0 +1,13 @@
+[포트폴리오를 직접 만들어보장!]
+- 필수 기능 : 회원가입, 로그인, 포트폴리오 목록
+- Header
+    - 1. 화면구성
+        ex) pages - join, login, content
+            components - Header 
+    - 2. 메인화면에서 클릭시, 페이지 이동 가능
+    - 3. 회원가입 ->  NINK_MEMBER 테이블(ID, PW, USER_NAME)
+    - 4. 로그인 -> LINK_MEMBER 안에서 확인 
+        -> 로그인 성공시 'sessionStorage'를 이용해서 객체 저장
+        -> result : 'success' or 'failed'
+        -> USER_NAME을 저장
+    - 5. github 클릭 시, 본인 깃허브로 이동/ Blog 클릭 시 본인 기술 블로기/ 블로그 이동
